@@ -1,38 +1,65 @@
 [
     {
+        "id": "0",
         "name": "Gan356 Air SM",
+        "description": "Simple rubix with some more tiles!",
         "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
-        "difficultyLevel": "1",
-        "href": "5c39f1851ab3b24f5c03e182"
+        "difficultyLevel": "1"
     },
     {
+        "id": "1",
         "name": "Eco-Dark",
+        "description": "Simple rubix with some more tiles!",
         "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
-        "difficultyLevel": "2",
-        "href": "5c39f1851ab3b24f5c03e183"
+        "difficultyLevel": "2"
     },
     {
+        "id": "2",
         "name": "Pyraminx",
+        "description": "Simple rubix with some more tiles!",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
-        "difficultyLevel": "3",
-        "href": "5c3a6888f78d6638ec8fdad6"
+        "difficultyLevel": "3"
     },
     {
+        "id": "3",
         "name": "Megaminx",
+        "description": "Simple rubix with some more tiles!",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61HpQqVQ37L._SY355_.jpg",
-        "difficultyLevel": "4",
-        "href": "5c3a68d9f78d6638ec8fdad7"
+        "difficultyLevel": "4"
     },
     {
+        "id": "4",
         "name": "Classic Rubix",
         "description": "Simple rubix with some more tiles!",
         "imageUrl": "https://img.joomcdn.net/9812e65506b850df945451d7ef45ec0d4d161787_original.jpeg",
         "difficultyLevel": "5"
     },
     {
+        "id": "5",
         "name": "Some Random cube",
         "description": "This cube is completely random!",
         "imageUrl": "https://www.i-programmer.info/images/stories/News/2015/Jan/A/rubik17twist.jpg",
         "difficultyLevel": "6"
+    },
+    {
+        "id": "6",
+        "name": "Some Random cube",
+        "description": "This cube is completely random!",
+        "imageUrl": "https://www.i-programmer.info/images/stories/News/2015/Jan/A/rubik17twist.jpg",
+        "difficultyLevel": "6"
+    },
+    {
+        "id": "7",
+        "name": "Classic Rubix",
+        "description": "Simple rubix with some more tiles!",
+        "imageUrl": "https://img.joomcdn.net/9812e65506b850df945451d7ef45ec0d4d161787_original.jpeg",
+        "difficultyLevel": "5"
+    },
+    {
+        "id": "8",
+        "name": "Last test with the crete",
+        "description": "This is the last creation for today!",
+        "imageUrl": "https://www.cubezz.com/images/201904/goods_img/5975_P_1556627407601.jpg",
+        "difficultyLevel": "5"
     }
 ]
