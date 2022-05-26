@@ -13,7 +13,24 @@ app.set('view engine', 'hbs');
 app.set('views', './src/views');
 
 app.get("/", (req, res) => {
-    res.render('index')
-})
+    res.render('index');
+});
+
+app.get('/create', (req, res) => {
+    res.render('create');
+});
+
+app.get('/details/:params', (req, res) => {
+    res.render('details');
+});
+
+// app.get('/about', (req, res) => {
+//     res.render('about');
+// });
+
+app.get('/about', (req, res) => {
+    res.status(404);
+    res.render('404');
+});
 
 app.listen(port, console.log(`Listening on port http://localhost:${port}`))
