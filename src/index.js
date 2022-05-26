@@ -1,8 +1,10 @@
 const express = require('express');
 const handlebars = require('express-handlebars');
+const routes = require('./routes');
 const port = 5000;
 
 const app = express();
+
 
 app.use('/static', express.static('public'));
 
@@ -12,23 +14,21 @@ app.engine('hbs', handlebars.engine({
 app.set('view engine', 'hbs');
 app.set('views', './src/views');
 
-app.get("/", (req, res) => {
-    res.render('index');
-});
+app.use(routes);
 
-app.get('/create', (req, res) => {
-    res.render('create');
-});
+// app.get('/create', (req, res) => {
+//     res.render('create');
+// });
 
 app.get('/details/:params', (req, res) => {
     res.render('details');
 });
 
-// app.get('/about', (req, res) => {
-//     res.render('about');
-// });
-
 app.get('/about', (req, res) => {
+    res.render('about');
+});
+
+app.get('/404', (req, res) => {
     res.status(404);
     res.render('404');
 });
