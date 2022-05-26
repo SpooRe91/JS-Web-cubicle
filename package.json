@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "main": "pathToMain",
     "scripts": {
-        "start": "cd ./src && nodemon index.js"
+        "start": "nodemon ./src/index.js"
     },
     "repository": {
         "type": "git",
