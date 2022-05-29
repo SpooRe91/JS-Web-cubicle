@@ -15,6 +15,4 @@ router.get('/', (req, res) => {
 router.get('/about', (req, res) => {
     res.render('about')
 });
-router.get('/search')
-
 module.exports = router;
